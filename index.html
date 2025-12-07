@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <!-- SVG Favicon (Logo Title) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232563eb'/%3E%3Cpath d='M8 16l6 6 12-12' stroke='white' stroke-width='4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Solusi Smart - Aplikasi Pembukuan Bengkel Mobil</title>
+    <meta name="title" content="Solusi Smart - Aplikasi Pembukuan Bengkel Mobil">
+    <meta name="description" content="Tingkatkan keuntungan bengkel Anda dengan Solusi Smart. Sistem pembukuan bengkel online untuk catat servis, stok sparepart, dan laporan keuangan otomatis. Coba Gratis!">
+    <meta name="keywords" content="aplikasi bengkel, software bengkel, pembukuan bengkel, manajemen stok sparepart, sistem bengkel mobil, aplikasi kasir bengkel, bengkel umkm">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Indonesian">
+    <meta name="author" content="Solusi Smart Team">
+    <link rel="canonical" href="https://solusismart.id/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://solusismart.id/">
+    <meta property="og:title" content="Solusi Smart - Aplikasi Pembukuan Bengkel Mobil">
+    <meta property="og:description" content="Kelola servis, stok sparepart, dan laporan keuangan bengkel Anda dengan mudah. Hemat waktu, anti ribet, dan data aman.">
+    <meta property="og:image" content="https://placehold.co/1200x630/2563eb/ffffff?text=Solusi+Smart+Dashboard">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://solusismart.id/">
+    <meta property="twitter:title" content="Solusi Smart - Aplikasi Pembukuan Bengkel Mobil">
+    <meta property="twitter:description" content="Kelola servis, stok sparepart, dan laporan keuangan bengkel Anda dengan mudah. Hemat waktu, anti ribet, dan data aman.">
+    <meta property="twitter:image" content="https://placehold.co/1200x630/2563eb/ffffff?text=Solusi+Smart+Dashboard">
+    
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class', // Enable class-based dark mode
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              primary: {
+                50: '#eff6ff',
+                100: '#dbeafe',
+                200: '#bfdbfe',
+                300: '#93c5fd',
+                400: '#60a5fa',
+                500: '#3b82f6', // blue-500
+                600: '#2563eb', // blue-600 (Main Brand Color)
+                700: '#1d4ed8',
+                800: '#1e40af',
+                900: '#1e3a8a',
+              },
+              dark: {
+                bg: '#0f172a',
+                card: '#1e293b',
+                text: '#f8fafc',
+                muted: '#94a3b8'
+              }
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Solusi Smart",
+      "headline": "Aplikasi Pembukuan Bengkel Mobil",
+      "operatingSystem": "Web Browser",
+      "applicationCategory": "BusinessApplication",
+      "description": "Sistem Pembukuan Bengkel Mobil modern untuk UMKM. Kelola servis, sparepart, dan laporan keuangan dengan mudah.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "IDR",
+        "priceValidUntil": "2025-12-31",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "1250"
+      },
+      "featureList": [
+        "Pencatatan Transaksi Servis",
+        "Manajemen Stok Sparepart",
+        "Laporan Keuangan Otomatis",
+        "Riwayat Servis Pelanggan"
+      ]
+    }
+    </script>
+
+    <style>
+      /* Prevent horizontal scrolling globally */
+      html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+
+      /* Custom Animated Scrollbar */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: #f8f9fa; 
+      }
+
+      .dark ::-webkit-scrollbar-track {
+        background: #0f172a;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: #9ca3af; 
+        border-radius: 10px;
+        transition: background 0.3s ease;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: #2563eb; 
+      }
+      
+      .scroll-mt-custom {
+        scroll-margin-top: 100px;
+      }
+      
+      /* Smooth background transition for dark mode */
+      body {
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100 antialiased overflow-x-hidden w-full">
+    <div id="root"></div>
+    
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
