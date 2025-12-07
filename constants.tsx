@@ -262,12 +262,12 @@ export const PRICING_DATA: PricingTier[] = [
 export const FAQ_DATA = [
   {
     id: 1,
-    question: '1. Apakah ada biaya tersembunyi?',
+    question: '1. Apakah ada biaya tambahan?',
     answer: 'Tidak. Semua biaya tercantum jelas sesuai paket langganan. Tidak ada biaya tambahan untuk fitur standar.'
   },
   {
     id: 2,
-    question: '2. Apakah bisa digunakan di HP?',
+    question: '2. Apakah bisa digunakan di Smartphone?',
     answer: 'Ya. Solusi Smart berbasis web responsif sehingga bisa diakses lewat HP, tablet, maupun komputer.'
   },
   {
