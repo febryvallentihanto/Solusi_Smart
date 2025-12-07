@@ -133,14 +133,14 @@ export const FEATURES_DATA: FeatureItem[] = [
   },
   {
     id: 2,
-    title: 'Kasir & POS Otomatis',
+    title: 'Manajemen Transaksi Otomatis',
     description: 'Hitung biaya servis dan cetak struk secara profesional tanpa repot.',
     icon: <Icons.Cart />,
     delay: 200,
   },
   {
     id: 3,
-    title: 'Kartu Stok Otomatis',
+    title: 'Manajemen Spare Part Otomatis',
     description: 'Stok sparepart berkurang otomatis, mencegah selisih dan kehilangan.',
     icon: <Icons.Box />,
     delay: 300,
