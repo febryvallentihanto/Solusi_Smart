@@ -42,8 +42,8 @@ const Contact: React.FC = () => {
                 <div>
                   <h5 className="font-bold text-gray-900 dark:text-white mb-1 text-base md:text-lg">Alamat Kantor</h5>
                   <p className="text-gray-600 dark:text-gray-400 text-sm md:text-base">
-                    Jl. Teknologi No. 88, Jakarta Selatan,<br />
-                    DKI Jakarta 12430
+                    Jl. Ring Road Utara, Condongcatur, Sleman,<br />
+                    Yogyakarta
                   </p>
                 </div>
               </div>
@@ -54,7 +54,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h5 className="font-bold text-gray-900 dark:text-white mb-1 text-base md:text-lg">WhatsApp / Telepon</h5>
-                  <p className="text-gray-600 dark:text-gray-400 text-sm md:text-base">+62 812 3456 7890 (Layanan 24 Jam)</p>
+                  <p className="text-gray-600 dark:text-gray-400 text-sm md:text-base">085976442573 (Layanan 24 Jam)</p>
                 </div>
               </div>
 
